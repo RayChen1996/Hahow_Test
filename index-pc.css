@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    height: 100vh;
+    background-color: bisque;
+    width: 90%;
+    margin: 0 auto;
+}
+.Fix_Marquee{
+    height: 5%;
+    background-color: red;
+    /* border-radius: 0 0 15px 15px; */
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .logo{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .search{
+    height: 80%;
+    flex: .8;
+    background-color: rgb(94, 195, 162);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+}
+.header .search input{
+    border: none;
+    border-radius: 15px;
+    height: 100%;
+    background-color: rgb(94, 195, 162);
+}
+.header .search input:focus{
+    border: none;
+    outline: none;
+}
+.header .search button{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(94, 195, 162);
+}
+.header .navbar{
+    flex: 3;
+}
+
+.header .Notify{
+    flex: .2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .Notify .pic{
+    font-size: 30px;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .navbar nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .navbar nav a{
+    color: #000;
+
+    text-decoration: none;
+}
+
+
+.header .login{
+    flex: .6;
+    display: flex;
+    height: 80%;
+    /* color: #fff; */
+    border-radius: 15px;
+    background-color: rgb(94, 195, 162);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content{
+    height: 75%;
+}
+
+
+
+.footer{
+    height: 10%;
+    background-color: aquamarine;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
