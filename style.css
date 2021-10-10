@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    height: 100vh;
+    background-color: bisque;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fix-nav{
+    height: 10%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+.fix-nav .logo{
+    flex: .25;
+    display: flex;
+    width: 20%;
+
+}
+
+.fix-nav .search_bar{
+   background-color: royalblue;
+   border-radius: 15px;
+   flex: .15;
+   line-height: 40px;
+   color: #fff;
+}
+.fix-nav .search_bar input::placeholder{
+    color: seashell;
+}
+
+.fix-nav .search_bar input{
+    border: none;
+    background-color: royalblue;
+    outline: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.fix-nav .search_bar input:focus{
+   outline: none;
+}
+
+
+.fix-nav .search_bar button {
+  border: none;
+  background-color: royalblue;
+}
+
+.fix-nav .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fix-nav nav{
+    flex: .5;
+    width: 100%;
+    display: flex;
+
+    justify-content: flex-end;
+}
+.fix-nav nav a{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.title{
+    height: 25%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title .main-title{
+
+}
+.title .sub_title{
+
+}
+
+
+
+
+.Content{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(43, 226, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Content .sideManu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+
+}
+.Content .sideManu .titleText{
+    background-color: chartreuse;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.Content .sideManu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.Content .sideManu ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 60px;
+}
+.Content .MainPage{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.footer{
+
+    height: 30%;
+    width: 100%;
+    background-color: rgb(225, 57, 255);
+}
+
+.footer .main-title{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.footer .main-title .item1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer .main-title .item1 ul{
+    display: flex;
+    line-height: 60px;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 25px;
+}
+.footer .main-title .item1 ul .yt{
+    color: rgb(241, 28, 28);
+}
+.footer .main-title .item1 ul .line{
+    color: rgb(48, 138, 83);
+}
+.footer .main-title .item1 ul .fb{
+    color: rgb(34, 100, 207);
+}
+.footer .main-title .item1 ul li{
+
+}
+.footer .main-title .item2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .main-title  .item3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .CopyRight{
+    width: 100%;
+    height: 20%;
+    background-color: plum;
+}
+.footer .CopyRight .text{
+
+    text-align: center;
+}
