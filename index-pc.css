@@ -25,6 +25,22 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+
+.Fix_Marquee input{
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgb(190, 15, 15);
+    height: 100%;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+.Fix_Marquee input:hover{
+    cursor: pointer;
+    background-color: rgb(121, 12, 12);
+}
 .header{
     height: 10%;
     width: 100%;
